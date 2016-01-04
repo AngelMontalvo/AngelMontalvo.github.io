@@ -8,3 +8,20 @@ body {
   width: 960px;
   margin: 20px auto 20px auto;
 }
+h1 {
+	color: red;
+	/*this is a comment*/
+}
+h4{
+	color: g;
+}
+#summary {
+	color: orange;
+}
+.unicorns {
+	color: purple;
+}
+img {
+	/*width: 50%;*/
+	width: 200px;
+}
