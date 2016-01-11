@@ -13,7 +13,7 @@ h1 {
 	/*this is a comment*/
 }
 h4{
-	color: g;
+	color: w;
 }
 #summary {
 	color: orange;
@@ -23,5 +23,5 @@ h4{
 }
 img {
 	/*width: 50%;*/
-	width: 200px;
+	width: 400px;
 }
