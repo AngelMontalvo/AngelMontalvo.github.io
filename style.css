@@ -9,11 +9,11 @@ body {
   margin: 20px auto 20px auto;
 }
 h1 {
-	color: green;
+	color: #14CE09;
 	/*this is a comment*/
 }
 h4{
-	color: white;
+	color: red;
 }
 #summary {
 	color: orange;
