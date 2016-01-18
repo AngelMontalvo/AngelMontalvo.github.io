@@ -1,59 +1,250 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Angel Montalvo, Engineer</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-</head>
-<body>
-  <div id="wrapper">
-    <h1>Angel Montalvo</h1>
-    <p>
-      <a href="https://www.linkedin.com/in/angel-montalvo-nuñez-97711714">
-        <img src="Profile picture.jpg" alt="Click to go to my LinkedIn Profile">
-      </a>
-    </p>
-    <h2.unicorns>Telecomm Engineer</h2>
-    <h3>Madrid, SPAIN</h3>
-    <div>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:angelmontalvonunez2016@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/angel-montalvo-nuñez-97711714">LinkedIn</a></li>
-        <li><a href="https://www.facebook.com/angel.montalvo.73">Facebook</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4 id=summary>Summary</h4>
-      <p>
-        Angel studied at the Universidad Europea de Madrid, where he proved himself a brilliant engineer with a specialty in Electronics. Following his education, Angel joined OMNILOGIC Telecomunicaciones making the company one of the most succesful in the Telecomm industry. He now studies an MBA at Kellogg Business School.
-      </p>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5>Co-Owner, OMNILOGIC Telecomunicaciones</h5>
-        <p>Give and you shall receive!</p>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Angel Company</title>
+        <!-- Bootstrap and jQuery -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- My Stylesheet -->
+        <link rel="stylesheet" href="stylesheets/style.css">
+    </head>
+    <body>  
+        <div>   
+            <nav class="navbar navbar-inverse" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">The Angel Company</a>
+                </div>
+            
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">
+                                <i class="fa fa-home"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <!-- <i class="fa fa-film"></i> -->
+                                Furniture Style
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Modern</a></li>
+                                <li><a href="#">Classic</a></li>
+                                <li><a href="#">Hipster</a></li>
+                                <li><a href="#">Sport</a></li>
+                                <li><a href="#">Accesories</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-user"></i>
+                                My Account
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <div class="container">
+        <h1 class="title">
+        POÄNG
+            <span class="rating">Living Room Furniture</span>
+            <small class="text-muted">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </small>
+        </h1>
+
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <p><a href="#" class="btn btn-sm btn-primary"><i class="fa fa-shopping-cart"></i> $228.00 Add to Cart</a></p>
+          <p><strong>Type:</strong> Rocking Chair</p>
+          <p><strong>Collection:</strong> Leather Living Room</p>
+        </div>
+        <div class="col-md-5 summary">
+    
+            <p><img src="images/poang-rocking-chair-black__0153176_PE311442_S4.JPG" style="width:380px;height:380px"></p>
+          <h2>Product Description</h2>
+          <p>
+            Rocking-chair frame:
+            Frame: Molded layer-glued wood veneer with surface of, Stain, Clear acrylic lacquer
+            Total composition: 100 % polypropylene
+            </p>
+            <p>
+            Chair cushion:
+            Seat: Polyester wadding, Polyurethane foam 2.0 lb/cu.ft.
+            Seat lining: 100 % cotton
+            Back: Polyester wadding, Polyurethane foam.
+            Head rest: Polyester wadding, Polyurethane foam.
+            Main parts: Dyed through top-grain leather with a treated, embossed and pigmented surface.
+          </p>
+        </div>
+        <div class="col-md-5 actors">
+          <h2>Similar & Related Items</h2>
+            <a href="#"><img src="images/poang-footstool-black__22108_PE107021_S4.JPG" class="img-thumbnail" alt="Poang Foot Stool" width="50" height="50"></a>
+            <a href="#"><img src="images/poang-chair-red__46189_PE142931_S4.JPG" class="img-thumbnail" alt="Poang Chair Red" width="50" height="50"></a>
+            <a href="#"><img src="images/arvika-swivel-chair-black__0117716_PE272913_S4.JPG" class="img-thumbnail" alt="Arvika Chair Black" width="50" height="50"></a>
+            <a href="#"><img src="images/skogaby-chair-gray__0195892_PE351827_S4.JPG" class="img-thumbnail" alt="Skogaby Chair Gray" width="50" height="50"></a>
+        </div>
       </div>
-      <div>
-        <h5>MBA student</h5>
-        <p>Kellogg School of Management is a world class institution in the areas of management and business.</p>
+
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+          
+        </div>
       </div>
-    </div>
-    <div>
-      <h4>Skills</h4>
-      <ul>
-        <li>Telecomm Engineering</li>
-        <li>General Management</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Motorcycles</li>
-      </ul>
-    </div>
-  </div>
-</body>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2 reviews">
+          <h2 class="page-header">Reviews</h2>
+          <div class="review">
+            <h4>Donald P. Jacobs says...</h4>
+            <h5>
+                Amazing Chair!
+                <small class="text-muted">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </small>
+            </h5>
+            <p>This is the most comfortable chair I have ever had. Either to rest, read, or work on your computer, it will make you stay there for hours.</p>
+          </div>
+
+          <div class="review">
+            <h4>Obama says...</h4>
+            <h5>
+              There are better options out there
+              <small class="text-muted">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </small>
+            </h5>
+            <p>This chair is ok if you are only looking for a functional piece of furniture. But don't expect it to be a true luxury article. I am used to way better qualities and materials, but I guess those only come at a higher price.</p>
+          </div>
+        </div>
+      </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-2 reviews">
+                <h2 class="page-header">Product Information</h2>
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <td><strong>Type</strong></td>
+                        <td>Rocking Chair</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Materials</strong></td>
+                        <td>Frame: Molded layer-glued wood veneer with surface of, Stain, Clear acrylic lacquer
+                        Total composition: 100 % polypropylene</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dimensions</strong></td>
+                        <td>
+                            <ul class="list-unstyled">
+                                <li>Seat width: 22 "</li>
+                                <li>Seat depth: 19 5/8 "</li>
+                                <li>Seat height: 17 3/4 "</li>
+                                <li>Height: 37 3/8 "</li>
+                                <li>Width: 26 3/4 "</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-4 text-right">
+                    <div class="founder">Meet our Founder, Angel Montalvo:</div>
+                    <div class="legend">"Quality never goes out of style"</div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="Profile picture.jpg" class="img-circle" alt="Angel Montalvo" width="236" height="236">
+                </div>
+                <div class="col-md-4 text-center">
+            
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <ul class="list-unstyled">
+                            <li><div class="footbold">Catalog & Brochures</div></li>
+                            <li><div class="footnormal"><a href="#">Request</a></div></li>
+                            <li><div class="footnormal"><a href="#">View Online</a></div></li>
+                            <li><div class="footnormal"><a href="#">Buying Guides</a></div></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <ul class="list-unstyled">
+                            <li><div class="footbold">Need Help</div></li>
+                            <li><div class="footnormal"><a href="#">FAQ</a></div></li>
+                            <li><div class="footnormal"><a href="#">Contact Us</a></div></li>
+                            <li><div class="footnormal"><a href="#">Return Policy</a></div></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <ul class="list-unstyled">
+                            <li><div class="footbold">Delivery Information</div></li>
+                            <li><div class="footnormal"><a href="#">Store Delivery</a></div></li>
+                            <li><div class="footnormal"><a href="#">Online Delivery</a></div></li>
+                            <li><div class="footnormal"><a href="#">Picking with Delivery</a></div></li>
+                            <li><div class="footnormal"><a href="#">Delivery Terms & Conditions</a></div></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <ul class="list-unstyled">
+                            <li><div class="footbold">Helpful Links</div></li>
+                            <li><div class="footnormal"><a href="#">Find a TAC Store</a></div></li>
+                            <li><div class="footnormal"><a href="#">All Products</a></div></li>
+                            <li><div class="footnormal"><a href="#">Planning Tools</a></div></li>
+                            <li><div class="footnormal"><a href="#">Warranties</a></div></li>
+                            <li><div class="footnormal"><a href="#">TAC Gift Card</a></div></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <ul class="list-unstyled">
+                            <li><div class="footbold">This is The Angel Company</div></li>
+                            <li><div class="footnormal"><a href="#">The TAC Concept</a></div></li>
+                            <li><div class="footnormal"><a href="#">Democratic Design</a></div></li>
+                            <li><div class="footnormal"><a href="#">People & Planet</a></div></li>
+                            <li><div class="footnormal"><a href="#">Press Room</a></div></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <ul class="list-unstyled">
+                            <li><div class="footbold">Working With Us</div></li>
+                            <li><div class="footnormal"><a href="#">Search Careers</a></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>Created by: Montalvo Triple Web Design</p>
+        <p>Contact information: <a href="mailto:amontalvo2016@kellogg.northwestern.edu">
+        Angel Montalvo</a></p>
+    </footer>
 </html>

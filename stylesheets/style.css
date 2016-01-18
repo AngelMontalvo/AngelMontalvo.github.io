@@ -1,0 +1,56 @@
+body {
+  
+  margin-top: 30px;
+  background-image: url(Picture2.png);
+  /*background-size: cover;
+*/  /*background-repeat: repeat;*/
+}
+.navbar-inverse .navbar-brand {
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff3300;
+  padding-bottom: 75px;
+  padding-top: 15px;
+}
+h1.title {
+  padding: 0 30px 30px 0;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.rating {
+  font-size: 0.4em;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+  padding: 4px;
+  vertical-align: middle;
+}
+.summary h2, .actors h2 {
+  margin-top: 0;
+}
+.actors li {
+  line-height: 24px;
+}
+.review {
+  margin-bottom: 30px;
+}
+.founder {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+.legend {
+  font-size: 20px;
+  font-style: italic;
+}
+.footbold {
+  padding-top: 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.footnormal {
+  font-size: 12px;
+}
