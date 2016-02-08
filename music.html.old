@@ -13,6 +13,7 @@
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <!-- My Stylesheet -->
         <link rel="stylesheet" href="stylesheets/style.css">
+        <script src="decotube.js"></script>
     </head>
     <body>  
         <div>   
@@ -38,36 +39,27 @@
                                 Home
                             </a>
                         </li>
-                        
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                 <!-- <i class="fa fa-film"></i> -->
-                                Shop by Furniture Style
+                                Furniture Style
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="store.html">Modern</a></li>
-                                <li><a href="store.html">Classic</a></li>
-                                <li><a href="store.html">Hipster</a></li>
-                                <li><a href="store.html">Sport</a></li>
-                                <li><a href="store.html">Accesories</a></li>
+                                <li><a href="#">Modern</a></li>
+                                <li><a href="#">Classic</a></li>
+                                <li><a href="#">Hipster</a></li>
+                                <li><a href="#">Sport</a></li>
+                                <li><a href="#">Accesories</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="profile.html">
-                                Meet our Founder
+                            <a href="tips.html">
+                                <!-- <i class="fa fa-home"></i> -->
+                                Music Player
                             </a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="music.html">
-                                <i class="fa fa-music"></i>
-                                Inspiration (Powered by Spotify)
-                            </a>
-                        </li>
-                    </ul>
-                    
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="#">
@@ -78,25 +70,41 @@
                     </ul>
                 </div>
             </nav>
-        
+
             <div class="container">
-                <div style="background:#222222 !important" class="jumbotron">
-                    <div class=jumbotron-text>Welcome to The Angel Company, allegedly the best online furniture store.</div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-4">
+                <h1><i class="fa fa-video"></i> Need inspiration? Play some music!</h1>
+                <div class="well">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="artist" class="col-sm-2 control-label">Theme or Style</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="artist" placeholder="Enter the name of the artist or song (e.g. Michael Jackson)">
+                            </div>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <a href="store.html" style="background:transparent !important" class="btn btn-info btn-block">ENTER THE STORE
-                            
-                            </a>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-success">Search for Styles</button>
+                                <a href="#" class="btn btn-danger stop-it">Stop It</a>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                        </div>
-                    </div>
+                    </form>
+                </div>
+                <div class="album-list">
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-4 text-right">
+                    <div class="founder">Meet our Founder, Angel Montalvo:</div>
+                    <div class="legend">"Quality never goes out of style"</div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="Profile picture.jpg" class="img-circle" alt="Angel Montalvo" width="236" height="236">
+                </div>
+                <div class="col-md-4 text-center">
             
+                </div>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 text-center">

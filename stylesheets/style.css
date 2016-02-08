@@ -54,3 +54,12 @@ h2 {
 .footnormal {
   font-size: 12px;
 }
+.album-list img {
+  float: left;
+  height: 150px;
+  margin: 0 10px 10px 0;
+}
+.jumbotron-text {
+  font-size: 25px;
+  color: #ffffff;
+}
